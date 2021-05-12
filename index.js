@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 
 const mongoose = require('mongoose')
 
-const conUrl = "mongodb+srv://mongodb_user:nMhwHpCyKOsOgzEX@cluster0.bpwbn.mongodb.net/test?retryWrites=true&w=majority";
+const conUrl = "mongodb+srv://mo=majority";
 mongoose.connect(url, {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false
 })
