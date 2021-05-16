@@ -1,10 +1,10 @@
-const express = require('express')
-const app = express()
-const port = process.env.PORT || 3000
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+const mongooseUrl = process.env.MONGO_URL;
 
 const mongoose = require('mongoose')
 
-const conUrl = "mongodb+srv://mo=majority";
 mongoose.connect(url, {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false
 })
